@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutri-Fit</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styles for the form and results */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: black;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .submit-btn {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .results-container {
+            margin-top: 20px;
+        }
+        .plan-box {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e9ecef;
+            border-radius: 5px;
+            display: none; /* Initially hide the plan boxes */
+        }
+        .plan-box.visible {
+            display: block; /* Show the plan boxes when visible */
+        }
+    </style>
+</head>
+<body>
+ 
+    <div class="header-section">
+        <div class="header-text">
+          <p class="text-one">NUTRI-FIT</p>
+          <p class="text-two">
+            Reach your goals <br> with Nutri-Fit
+          </p>
+        </div>
+        <div class="header-content">
+          <h3 style="color: yellow;">Why Choose Nutri-Fit?</h3>
+          <ul class="benefits-list">
+            <li>Personalized nutrition plans</li>
+            <li>Expert fitness guidance</li>
+            <li>Progress tracking tools</li>
+            <li>Supportive community</li>
+            <li>Achieve lasting results</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="all-images">
+        <div class="images-div">
+          <p class="text-three">Set Your Goals</p>
+          <img class="image-1" src="Home_SetGoal (1).jpg">
+          <p class="text-three-one">Tell us what you want to achieve and <br>receive personalized goals.</p>
+        </div>
+    
+        <div class="images-div">
+          <p class="text-three">Track Your Food</p>
+          <img class="image-1" src="Home_TrackFoods.jpg">
+          <p class="text-three-one">Learn about the foods you&#8217;re eating and<br> keep your calories within your daily<br> budget.</p>
+        </div>
+  
+        <div class="images-div">
+          <p class="text-three">Lose Weight</p>
+          <img class="image-1" src="Home_LoseWeight (1).jpg">
+          <p class="text-three-one"> Reach your goals and continue to set<br> new ones for a happier, healthier you!</p>
+        </div>
+      </div>
+  
+      <div class="form-container">
+        <h2>Start Your Journey</h2>
+
+
+
+
+    <div class="container">
+        <header class="header">
+            <h1>Nutri-Fit</h1>
+            <p>Stay fit, even on the go!</p>
+            <p class="motivational-text">"The world is a book, and those who do not travel read only one page."</p>
+        </header>
+        
+        <section class="travel-mode-section">
+            <div class="input-container">
+                <h2>Enter Your Travel Details</h2>
+                <form id="travelForm">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" placeholder="Enter your destination" required>
+
+                    <label for="duration">Duration (days):</label>
+                    <input type="number" id="duration" placeholder="Days of travel" required>
+
+                    <label for="height">Height (cm):</label>
+                    <input type="number" id="height" placeholder="Your height in cm" required>
+
+                    <label for="weight">Weight (kg):</label>
+                    <input type="number" id="weight" placeholder="Your weight in kg" required>
+
+                    <label for="goal">Weight Goal:</label>
+                    <select id="goal" required>
+                        <option value="" disabled selected>Select your goal</option>
+                        <option value="cutting">Cutting</option>
+                        <option value="bulking">Bulking</option>
+                        <option value="maintaining">Maintaining Weight</option>
+                    </select>
+
+                    <button type="submit" class="submit-btn">Get Travel Plan</button>
+                </form>
+            </div>
+
+            <div id="resultContainer" class="results-container">
+                <h2>Your Personalized Plan</h2>
+                <div id="workoutPlan" class="plan-box">
+                    <h3>Workout Plan</h3>
+                    <p>Workouts that require no equipment.</p>
+                </div>
+                <div id="dietPlan" class="plan-box">
+                    <h3>Diet Plan</h3>
+                    <p>Meal suggestions based on your location and goals.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="travelMode.js"></script>
+</body>
+</html>
