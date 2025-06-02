@@ -45,9 +45,9 @@ Nutri-Fit/
 
 ## 👨‍💻 Author
 
-Sujan S
-🎓 SRM Institute of Science and Technology
-📧 [sujans1411@gmail.com.com]
+Sujan S  
+🎓 SRM Institute of Science and Technology  
+📧 [sujans1411@gmail.com.com]  
 🔗 [Portfolio](https://wolfieexd.github.io/portfolio/)
 
 ---
