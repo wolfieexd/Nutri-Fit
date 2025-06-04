@@ -1,4 +1,9 @@
 # Nutri-Fit 🥗💪
+![HTML](https://img.shields.io/badge/Language-HTML-orange?style=flat-square)
+![CSS](https://img.shields.io/badge/Style-CSS-blue?style=flat-square)
+![JS](https://img.shields.io/badge/Logic-JavaScript-yellow?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-Web-green?style=flat-square)
+![Use](https://img.shields.io/badge/Usage-Academic--Project-lightgrey?style=flat-square)
 
 **Nutri-Fit** is a responsive and visually engaging web project designed to help users improve their health and lifestyle. It offers guidance on tracking food, setting goals, and losing weight — all supported by interactive visuals and a clean UI.
 
